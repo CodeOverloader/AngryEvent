@@ -1,0 +1,15 @@
+# AngryEvent Plugin Configuration
+# Configuration for the AngryEvent plugin
+
+# Wither Skeleton Lucky Kill Event
+wither_skeleton_event:
+  # Whether the lucky kill event is enabled
+  enabled: false
+  # Chance percentage (1 = 1%)
+  chance: 1
+  # Custom message (use {player} for player name)
+  message: "{player} found an Angry Helmet!"
+  # Commands to run when a player gets lucky (use {player} for player name)
+  # These commands will be executed as the console
+  commands-to-run:
+    - "givecustomitem {player} angry_helmet"

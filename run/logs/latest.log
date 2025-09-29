@@ -1,0 +1,69 @@
+[20:50:48] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Windows 11 10.0 (amd64)
+[20:50:48] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[20:50:49] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:50:49] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'C:\Users\boorg\Documents\GitHub\AngryEvent\build\libs\AngryEvent-1.0-SNAPSHOT.jar'...
+[20:50:49] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'C:\Users\boorg\Documents\GitHub\AngryEvent\build\libs\AngryEvent-1.0-SNAPSHOT.jar' in 278ms.
+[20:50:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[20:50:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - AngryEvent (1.0-SNAPSHOT)
+[20:50:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:50:53] [ServerMain/INFO]: Loaded 1290 recipes
+[20:50:53] [ServerMain/INFO]: Loaded 1399 advancements
+[20:50:54] [Server thread/INFO]: Starting minecraft server version 1.21
+[20:50:54] [Server thread/INFO]: Loading properties
+[20:50:54] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[20:50:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:50:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:50:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:50:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 6 worker threads, and population gen parallelism of 6 threads
+[20:50:55] [Server thread/INFO]: Default game type: SURVIVAL
+[20:50:55] [Server thread/INFO]: Generating keypair
+[20:50:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:50:55] [Server thread/INFO]: Using default channel type
+[20:50:55] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:50:55] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:50:55] [Server thread/INFO]: [AngryEvent] Loading server plugin AngryEvent v1.0-SNAPSHOT
+[20:50:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:50:55] [Server thread/INFO]: Preparing level "world"
+[20:50:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:50:56] [Server thread/INFO]: Time elapsed: 787 ms
+[20:50:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:50:57] [Server thread/INFO]: Time elapsed: 128 ms
+[20:50:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:50:57] [Server thread/INFO]: Time elapsed: 103 ms
+[20:50:57] [Server thread/INFO]: [AngryEvent] Enabling AngryEvent v1.0-SNAPSHOT
+[20:50:57] [Server thread/INFO]: [spark] Starting background profiler...
+[20:50:57] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:50:57] [Server thread/INFO]: Done preparing level "world" (1.692s)
+[20:50:57] [Server thread/INFO]: Running delayed init tasks
+[20:50:57] [Server thread/INFO]: Done (9.314s)! For help, type "help"
+[20:50:57] [Server thread/INFO]: Timings Reset
+[20:51:26] [User Authenticator #0/INFO]: UUID of player CodeOverload is dda9633c-ad5a-4be7-b2a9-deb60f8b04bd
+[20:51:26] [Server thread/INFO]: CodeOverload joined the game
+[20:51:27] [Server thread/INFO]: CodeOverload[/127.0.0.1:56861] logged in with entity id 217 at ([world]-27.14442926349183, 104.0, 28.02137599170525)
+[20:51:31] [Server thread/INFO]: CodeOverload issued server command: /pl
+[20:51:47] [Server thread/INFO]: CodeOverload issued server command: /angryop status
+[20:51:50] [Server thread/INFO]: CodeOverload issued server command: /angryop enable
+[20:52:50] [Server thread/INFO]: CodeOverload issued server command: /angryop reload
+[20:53:25] [Server thread/INFO]: CodeOverload issued server command: /angryop disable
+[20:53:29] [Server thread/INFO]: CodeOverload issued server command: /angryop status
+[20:53:32] [Server thread/INFO]: CodeOverload issued server command: /angryop enable
+[20:53:52] [Server thread/INFO]: CodeOverload issued server command: /angryop reload
+[20:53:55] [Server thread/INFO]: CodeOverload issued server command: /angryop status
+[20:54:03] [Server thread/INFO]: CodeOverload got lucky killing a Wither Skeleton!
+[20:54:03] [Server thread/INFO]: CodeOverload has made the advancement [Diamonds!]
+[20:54:03] [Server thread/INFO]: Gave 5 [Diamond] to CodeOverload
+[20:54:03] [Server thread/INFO]: Gave 10 [Emerald] to CodeOverload
+[20:54:03] [Server thread/INFO]: Gave 100 experience levels to CodeOverload
+[20:56:24] [Server thread/INFO]: CodeOverload issued server command: /gamerule commandBlockOutput false
+[20:56:24] [Server thread/INFO]: [CodeOverload: Gamerule commandBlockOutput is now set to: false]
+[20:56:37] [Server thread/INFO]: CodeOverload got lucky killing a Wither Skeleton!
+[20:56:37] [Server thread/INFO]: Gave 5 [Diamond] to CodeOverload
+[20:56:37] [Server thread/INFO]: Gave 10 [Emerald] to CodeOverload
+[20:56:37] [Server thread/INFO]: Gave 100 experience levels to CodeOverload
+[20:57:04] [Server thread/INFO]: CodeOverload issued server command: /gamerule sendCommandFeedback false
+[20:57:04] [Server thread/INFO]: [CodeOverload: Gamerule sendCommandFeedback is now set to: false]
+[20:57:24] [Server thread/INFO]: CodeOverload got lucky killing a Wither Skeleton!
+[20:57:24] [Server thread/INFO]: Gave 5 [Diamond] to CodeOverload
+[20:57:24] [Server thread/INFO]: Gave 10 [Emerald] to CodeOverload
+[20:57:24] [Server thread/INFO]: Gave 100 experience levels to CodeOverload

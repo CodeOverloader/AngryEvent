@@ -1,0 +1,17 @@
+# AngryEvent Plugin Configuration
+# Configuration for the AngryEvent plugin
+
+# Wither Skeleton Lucky Kill Event
+wither_skeleton_event:
+  # Whether the lucky kill event is enabled
+  enabled: true
+  # Chance percentage (1 = 1%)
+  chance: 25
+  # Custom message (use {player} for player name)
+  message: '{player} got lucky killing a Wither Skeleton!'
+  # Commands to run when a player gets lucky (use {player} for player name)
+  # These commands will be executed as the console
+  commands-to-run:
+  - give {player} diamond 5
+  - give {player} emerald 10
+  - xp add {player} 100 levels

@@ -1,0 +1,16 @@
+name: AngryEvent
+version: '1.0-SNAPSHOT'
+main: dev.codeoverload.angryEvent.AngryEvent
+api-version: '1.21'
+
+commands:
+  angryop:
+    description: Basic operator command for AngryEvent plugin
+    usage: /<command> [reload|info|enable|disable|status|help]
+    permission: angryevent.op
+    permission-message: You don't have permission to use this command!
+
+permissions:
+  angryevent.op:
+    description: Allows use of AngryEvent operator commands
+    default: op
